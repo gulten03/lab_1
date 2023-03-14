@@ -1,0 +1,9 @@
+public static void checkUnitsTens(int num) {
+    int units = num % 10;
+    int tens = (num / 10) % 10;
+    if (units == tens) {
+        System.out.println("yes");
+    } else {
+        System.out.println("no");
+    }
+}
